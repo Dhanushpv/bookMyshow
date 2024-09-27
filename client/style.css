@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bookmysho_logo{
+    width:115px ;
+    height: 33.9;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0.1);
+}
