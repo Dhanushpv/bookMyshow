@@ -133,11 +133,16 @@
             title : body.title,
             rating : body.rating,
             language : body.language,
+            category : body.category,
+            image : body.image
         }
         console.log("data",data);
 
         let id = req.params.id;
         console.log("id",id);
+
+        let image_id = body.image;
+
 
         let updateData = await users.updateOne({_id:id},data);
         console.log("updateData",updateData);
