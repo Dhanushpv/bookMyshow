@@ -141,7 +141,7 @@
         let id = req.params.id;
         console.log("id",id);
 
-        let image_id = body.image;
+        // let image_id = body.image;
 
 
         let updateData = await users.updateOne({_id:id},data);
